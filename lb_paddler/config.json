@@ -1,0 +1,13 @@
+{
+    "listen_port": 18005,
+    "backend_urls": [
+        "http://127.0.0.1:58581",
+        "http://127.0.0.1:58582",
+        "http://127.0.0.1:58583",
+        "http://127.0.0.1:58584"
+    ],
+    "max_conns_per_backend": 1,
+    "queue_size": 100,
+    "health_check_interval_seconds": 5,
+    "request_timeout_seconds": 300
+}
